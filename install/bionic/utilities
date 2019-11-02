@@ -10,6 +10,12 @@
 logger "utilities - curl"
 sudo apt -y install curl
 
+# cherrytree
+logger "utilities - cherrytree"
+sudo add-apt-repository ppa:giuspen/ppa
+sudo apt-get update
+sudo apt-get -y install cherrytree
+    
 # flatpak
 logger "utilities - flatpak"
 sudo apt -y install flatpak

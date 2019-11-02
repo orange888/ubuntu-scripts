@@ -6,6 +6,12 @@
 # 20/05/2018, v1.1 - Add NitroShare
 # -------------------------------------------------------
 
+# cherrytree
+logger "utilities - cherrytree"
+sudo add-apt-repository ppa:giuspen/ppa
+sudo apt-get update
+sudo apt-get -y install cherrytree
+
 # yad editor (used by many scripts)
 logger "utilities - yad"
 sudo apt -y install yad
